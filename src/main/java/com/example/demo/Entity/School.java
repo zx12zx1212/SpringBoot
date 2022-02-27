@@ -42,7 +42,7 @@ public class School {
     @Column(name = "LAST_DATE")
     private Date lastDate;
 
-    @OneToOne
+    @OneToOne()
     @JoinColumn(name = "ID")
     private Address address;
 
